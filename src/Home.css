@@ -1,0 +1,204 @@
+.row{
+    margin: 0;
+  }
+  
+  body{
+    font-family: poppins,Arial,sans-serif;
+  }
+  
+  .profileImg{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .name{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.2;
+    margin-top: 175px;
+  }
+  
+  .subh{
+    color: #D5C455;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  .skill{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .progress-bar{
+    background-color:#D5C455;
+  }
+  
+  .progress{
+    border-radius: 2rem;
+    height: 8px;
+  }
+  
+  .progress-text{
+      font-weight: 550;
+      font-size: 19px;
+      cursor: pointer;
+  }
+  
+  .skillsection{
+    margin-top: 100px;
+    /* background-image: url("./vector2.png");
+    background-position: 40%;
+    background-repeat: no-repeat; */
+  }
+  
+  @media only screen and (min-width: 768px){
+      
+    .circle{
+      background-color: #f6f6f6;
+      border-radius: 100%;
+      margin-left: 585px;
+        margin-right: 585px;
+        height: 148px;
+    }
+    
+    .vl{
+      border-left: 2px solid;
+      height: 120px;
+      color: #D5C455;
+      margin-left: 660px;
+    }
+    
+    .graduation{
+      margin-right: 220px;
+      margin-top: -130px;
+    }
+    
+    .inter{
+      margin-left: 105px;
+      text-align: right;
+      margin-top: -130px;
+    }
+    
+    .educationsection{
+      margin-top: 100px;
+      background-image: url("./bgimg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 768px){
+  
+  
+  
+      
+    .circle{
+      background-color: #f6f6f6;
+      border-radius: 100%;
+        margin-right: 260px;
+        height: 110px;
+    }
+  
+    .vl{
+      border-left: 2px solid;
+      height: 120px;
+      color: #D5C455;
+      margin-left: 50px;
+    }
+    
+    .graduation{
+      margin-left: 130px;
+      margin-top: -130px;
+    }
+    
+    .inter{
+      margin-left: 130px;
+      margin-top: -130px;
+    }
+    
+    .educationsection{
+      background-image: url("./bgimg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .year{
+      margin-top: -50px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/*   
+  
+  .card-flip > div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+  }
+  
+  .card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+  }
+  
+  .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+  }
+  
+  .card-flip{
+    box-shadow: 2px 2px lightgr
+  } */
+  
+  .progress-column :hover{
+    color: rgb(48, 189, 207);
+    font-size: 40px;
+  } 
+
+
+
+  .project hr{
+    width: 25%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+
+.project img{
+    width: 30%;
+}
+
+.project a{
+    color: black;
+    text-decoration: none;
+}
+  
