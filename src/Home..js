@@ -3,6 +3,7 @@ import React from "react";
 //import image5 from "./img/5.png";
 //import image9 from "./img/9.png";
 //import image10 from "./img/10.png";
+import image11 from "./img/004-large.jpg";
 import ProjectSee from "./img/ProjectSee.png";
 import "./Home.css";
 import Footer from "./Footer";
@@ -33,7 +34,7 @@ const Home = () => {
 
         </div>
         <div className="col-lg-6 col-sm-12" style={{ backgroundColor: "#D5C455" }}>
-          <img className="profileImg mx-auto d-block" src="https://praveenyadav.netlify.app/img/portfolio/004-large.jpg" alt="" />
+          <img className="profileImg mx-auto d-block" src={image11} alt="" />
         </div>
       </div>
 
