@@ -206,13 +206,13 @@ doAnime5()
 
     </h1>
     
-    <a href="https://github.com/praveen12math/mobileWeather-Application" target="_blank" className="button1 text-white"
+    <a href="https://github.com/praveen12math/mobileWeather-Application" target="_blank" without rel="noreferrer" className="button1 text-white"
     style={{opacity:"0.9"}}
-    >Go to code</a>
+    ><i class="fab fa-github"></i></a>
     
-    <a href="https://myweathercondition.netlify.app/" target="_blank" className="button2 btn text-white"
+    <a href="https://myweathercondition.netlify.app/" target="_blank" without rel="noreferrer" className="button2 btn text-white"
     style={{opacity:"0.9"}}
-    >Go to live</a>
+    ><i class="fab fa-chrome"></i></a>
   </div>
   </div>
 
@@ -250,15 +250,15 @@ doAnime5()
 
     </h1>
     
-    <a  href="https://github.com/praveen12math/onlineQuiz" target="_blank"
+    <a  href="https://github.com/praveen12math/onlineQuiz" target="_blank" without rel="noreferrer"
     className="button1 text-white"
     style={{opacity:"0.9"}}
-    >Go to code</a>
+    ><i class="fab fa-github"></i></a>
     
-    <a href="https://onlinexam.netlify.app" target="_blank"
+    <a href="https://onlinexam.netlify.app" target="_blank" without rel="noreferrer"
      className="button2 btn text-white"
     style={{opacity:"0.9"}}
-    >Go to live</a>
+    ><i class="fab fa-chrome"></i></a>
 </div>
 </div>
 
@@ -298,13 +298,13 @@ doAnime5()
     </h1>
     
     <a href="https://github.com/praveen12math/jaunpurbuilders"
-                      target="_blank" className="button1 text-white"
+                      target="_blank" without rel="noreferrer" className="button1 text-white"
     style={{opacity:"0.9"}}
-    >Go to code</a>
+    ><i class="fab fa-github"></i></a>
     
-    <a href="http://jaunpurbuilders.rf.gd/" target="_blank" className="button2 btn text-white"
+    <a href="http://jaunpurbuilders.rf.gd/" target="_blank" without rel="noreferrer" className="button2 btn text-white"
     style={{opacity:"0.9"}}
-    >Go to live</a>
+    ><i class="fab fa-chrome"></i></a>
 </div>
 </div>
 
@@ -347,14 +347,14 @@ doAnime5()
     </h1>
     
     <a href="https://github.com/praveen12math/GitHub-Api"
-                      target="_blank" className="button1 text-white"
+                      target="_blank" without rel="noreferrer" className="button1 text-white"
     style={{opacity:"0.9"}}
-    >Go to code</a>
+    ><i class="fab fa-github"></i></a>
     
     <a href="https://praveen12math.github.io/GitHub-Api/"
-                      target="_blank" className="button2 btn text-white"
+                      target="_blank" without rel="noreferrer" className="button2 btn text-white"
     style={{opacity:"0.9"}}
-    >Go to live</a>
+    ><i class="fab fa-chrome"></i></a>
 </div>
 </div>
 
@@ -392,13 +392,13 @@ doAnime5()
     </h1>
     
     <a href="https://github.com/praveen12math/Tic-Tac-Toe-Game"
-                      target="_blank" className="button1 text-white"
+                      target="_blank" without rel="noreferrer" className="button1 text-white"
     style={{opacity:"0.9"}}
-    >Go to code</a>
+    ><i class="fab fa-github"></i></a>
     
-    <a href="https://tictac-game.netlify.app" target="_blank" className="button2 btn text-white"
+    <a href="https://tictac-game.netlify.app" target="_blank" without rel="noreferrer" className="button2 btn text-white"
     style={{opacity:"0.9"}}
-    >Go to live</a>
+    ><i class="fab fa-chrome"></i></a>
 </div>
 </div>
 
@@ -438,13 +438,13 @@ doAnime5()
     </h1>
     
     <a href="https://github.com/praveen12math/Generate-Random-User"
-                      target="_blank" className="button1 text-white"
+                      target="_blank" without rel="noreferrer" className="button1 text-white"
     style={{opacity:"0.9"}}
-    >Go to code</a>
+    ><i class="fab fa-github"></i></a>
     
-    <a href="http://userrandom.netlify.app" target="_blank" className="button2 btn text-white"
+    <a href="http://userrandom.netlify.app" target="_blank" without rel="noreferrer" className="button2 btn text-white"
     style={{opacity:"0.9"}}
-    >Go to live</a>
+    ><i class="fab fa-chrome"></i></a>
 </div>
 </div>
 

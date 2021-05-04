@@ -52,6 +52,7 @@
     left: 20%;
     top: 81%;
     text-decoration: none;
+    font-size: 40px;
   }
   .projectPage .button2 {
     display: block;
@@ -59,6 +60,8 @@
     left: 45%;
     top: 80%;
     text-decoration: none;
+    font-size: 40px;
+
   }
   
   

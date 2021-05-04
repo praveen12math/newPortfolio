@@ -1,8 +1,8 @@
 import React from "react";
-import image4 from "./img/4.png";
-import image5 from "./img/5.png";
-import image9 from "./img/9.png";
-import image10 from "./img/10.png";
+// import image4 from "./img/4.png";
+//import image5 from "./img/5.png";
+//import image9 from "./img/9.png";
+//import image10 from "./img/10.png";
 import ProjectSee from "./img/ProjectSee.png";
 import "./Home.css";
 import Footer from "./Footer";
@@ -14,7 +14,7 @@ const Home = () => {
       <div className="row">
        
         <div
-          className="col-sm-10 col-lg-6"
+          className="col-sm-12 col-lg-6"
           style={{ backgroundColor: "#F8F8F8" }}
         >
           <div className="container">
@@ -32,19 +32,86 @@ const Home = () => {
          >Know More</button></a>
 
         </div>
-        <div className="col-lg-6" style={{ backgroundColor: "#D5C455" }}>
-          <img className="profileImg mx-auto d-block" src={image5} alt="" />
+        <div className="col-lg-6 col-sm-12" style={{ backgroundColor: "#D5C455" }}>
+          <img className="profileImg mx-auto d-block" src="https://praveenyadav.netlify.app/img/portfolio/004-large.jpg" alt="" />
         </div>
       </div>
 
       {/* Skill section */}
 
-      <div id="next" className="row skillsection mb-5">
-        <h1 className="skill mt-5 pb-5">
-          <u style={{ textDecorationColor: "#D5C455" }}>My Skills</u>
-        </h1>
 
-        <div className="col-lg-5 mx-auto mt-5 progress-text progress-column">
+<div className="container">
+      <div id="next" className="row skillsection mb-5">
+        <hi className="skill mt-5 pb-5">
+          <u style={{ textDecorationColor: "#D5C455" }}>My Skills</u>
+        </hi>
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/> HTML & CSS</h3>
+          </div>
+        </div>
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>PHP</h3>
+          </div>
+        </div>
+
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>MySql</h3>
+          </div>
+        </div>
+
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>ReactJs</h3>
+          </div>
+        </div>
+
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>ExpressJs</h3>
+          </div>
+        </div>
+
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>NodeJs</h3>
+          </div>
+        </div>
+
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>Core Java</h3>
+          </div>
+        </div>
+
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>C / C++</h3>
+          </div>
+        </div>
+
+
+        <div className="col-lg-3   mt-5 skillCircle mx-auto">
+          <div className="badge text-dark progress-text" >
+            <h3 className="" > <br/><br/>Git / GitHub</h3>
+          </div>
+        </div>
+
+
+
+        </div>
+
+        {/* <div className="col-lg-5 mx-auto mt-5 progress-text progress-column">
           <div className="progress-wrap">
             <h3 className="progress-text">HTML & CSS</h3>
             <div className="progress">
@@ -170,7 +237,7 @@ const Home = () => {
               aria-valuemax="100"
             ></div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Education Section */}

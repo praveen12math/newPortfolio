@@ -9,7 +9,7 @@ const Footer = () => {
     <section className=" mt-5 mb-4">
       
       <a className="btn btn-outline-light btn-floating m-2" href="https://www.facebook.com/praveen12math/" role="button"
-      target="_blank"
+      target="_blank" without rel="noreferrer"
       >
       <i className="fab fa-facebook-f"></i></a>
 
@@ -20,15 +20,15 @@ const Footer = () => {
         ><i className="fab fa-google"></i></a> */}
 
       <a className="btn btn-outline-light btn-floating m-2" href="https://www.instagram.com/includepraveen/" role="button"
-        target="_blank"
+        target="_blank" without rel="noreferrer"
         ><i className="fab fa-instagram"></i></a>
 
       <a className="btn btn-outline-light btn-floating m-2" href="https://www.linkedin.com/in/praveen-yadav-926047159/" role="button"
-      target='_blank'
+      target="_blank" without rel="noreferrer"
         ><i className="fab fa-linkedin-in"></i></a>
 
       <a className="btn btn-outline-light btn-floating m-2" href="https://github.com/praveen12math" role="button"
-        target="_blank" ><i className="fab fa-github"></i></a>
+        target="_blank" without rel="noreferrer" ><i className="fab fa-github"></i></a>
     </section>
 
 

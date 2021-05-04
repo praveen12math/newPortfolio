@@ -45,6 +45,11 @@
       font-weight: 550;
       font-size: 19px;
       cursor: pointer;
+      background-color: #f6f6f6;
+      border-radius: 100%;
+      width: 80%;
+      height: 180px;
+      text-align: center;
   }
   
   .skillsection{
@@ -97,6 +102,11 @@
   
   
   @media only screen and (max-width: 768px){
+
+    .profileImg{
+      width: 100%;
+      height: 60vh;
+    }
   
   
   
@@ -178,10 +188,14 @@
     box-shadow: 2px 2px lightgr
   } */
   
-  .progress-column :hover{
-    color: rgb(48, 189, 207);
-    font-size: 40px;
+  .skillCircle :hover{
+    background-color: #D5C455;
+    color: white;
   } 
+
+  .skillCircle{
+    
+  }
 
 
 
