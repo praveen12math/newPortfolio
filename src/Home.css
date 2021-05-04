@@ -216,4 +216,8 @@
     color: black;
     text-decoration: none;
 }
+
+.project :hover {
+  color: #D5C455;
+}
   
