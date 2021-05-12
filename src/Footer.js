@@ -1,6 +1,17 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 
 const Footer = () => {
+
+  const [hitCount, setHitCount] = useState('0')
+
+  useEffect(() => {
+    fetch(`https://api.countapi.xyz/hit/praveenyadav.netlify.app/visits`)
+    .then(res => res.json())
+      .then(res => {
+        setHitCount(res.value)
+      })
+    },[])
+
     return ( 
         <footer className="bg-dark text-center text-white">
   
@@ -29,7 +40,9 @@ const Footer = () => {
 
       <a className="btn btn-outline-light btn-floating m-2" href="https://github.com/praveen12math" role="button"
         target="_blank" without rel="noreferrer" ><i className="fab fa-github"></i></a>
+        
     </section>
+    <span className="float-end">{hitCount} times hit</span>
 
 
     <div className="mt-5 mb-3">
@@ -60,6 +73,7 @@ const Footer = () => {
   <div className="text-center p-3 mt-4" style={{backgroundColor: "rgba(0, 0, 0, 0.2);"}}>
     © 2021 Copyright: Praveen Yadav
   </div>
+
 </footer>
      );
 }
